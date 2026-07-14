@@ -1,0 +1,386 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-bg text-ink font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display text-primary-dark;
+  }
+  a {
+    @apply transition-colors duration-200;
+  }
+  :focus-visible {
+    outline: 2px solid #9C5B3C;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-mono uppercase tracking-[0.18em] text-xs text-accent;
+  }
+  .divider {
+    @apply w-12 h-px bg-gold/70;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-primary text-surface-soft px-6 py-3 rounded-full font-body font-medium hover:bg-primary-dark transition-colors;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border border-primary/30 text-primary px-6 py-3 rounded-full font-body font-medium hover:bg-primary hover:text-surface-soft transition-colors;
+  }
+  .card {
+    @apply bg-surface rounded-2xl border border-primary/10 shadow-[0_1px_2px_rgba(34,54,42,0.04)];
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-breathe, .animate-breatheRing {
+    animation: none !important;
+  }
+} */
+
+
+
+/* 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-bg text-ink font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display text-primary-dark;
+  }
+  a {
+    @apply transition-colors duration-200;
+  }
+  :focus-visible {
+    outline: 2px solid #A9713C;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-mono uppercase tracking-[0.18em] text-xs text-accent;
+  }
+  .divider {
+    @apply w-12 h-px bg-gold/70;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-primary text-surface-soft px-6 py-3 rounded-full font-body font-medium
+           shadow-[0_1px_0_rgba(255,255,255,0.08)_inset,0_10px_24px_-12px_rgba(21,42,34,0.55)]
+           hover:bg-primary-dark hover:-translate-y-0.5 transition-all duration-200;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border border-primary/30 text-primary px-6 py-3 rounded-full font-body font-medium
+           hover:bg-primary hover:text-surface-soft hover:border-primary hover:-translate-y-0.5 transition-all duration-200;
+  }
+  .card {
+    @apply bg-surface rounded-2xl border border-primary/10
+           shadow-[0_1px_2px_rgba(21,42,34,0.05)]
+           hover:shadow-[0_20px_40px_-24px_rgba(21,42,34,0.35)]
+           transition-shadow duration-300;
+  } */
+
+  /* Icon tiles — the small, distinct mark shown on every condition/therapy
+     card. Six muted tones cycle deterministically by slug (see IconTile.tsx)
+     so cards read as a coherent "specimen card" set rather than one repeated
+     placeholder box. */
+  /* .icon-tile {
+    @apply w-12 h-12 rounded-xl flex items-center justify-center shrink-0
+           ring-1 ring-inset ring-black/[0.04];
+  }
+  .tile-sage   { @apply bg-[#DCE5DA] text-[#2F4B3C]; }
+  .tile-brass  { @apply bg-[#EFE3CC] text-[#8C6A31]; }
+  .tile-clay   { @apply bg-[#E8DAD1] text-[#8A5A3E]; }
+  .tile-slate  { @apply bg-[#DCE2E6] text-[#3E5866]; }
+  .tile-plum   { @apply bg-[#E6DCE3] text-[#6B4A63]; }
+  .tile-moss   { @apply bg-[#DEE3D2] text-[#4B5A34]; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-breathe, .animate-breatheRing, .animate-drift {
+    animation: none !important;
+  }
+} */
+
+/* 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-bg text-ink font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display text-primary-dark;
+  }
+  a {
+    @apply transition-colors duration-200;
+  }
+  :focus-visible {
+    outline: 2px solid #A9713C;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-mono uppercase tracking-[0.18em] text-xs text-accent;
+  }
+  .divider {
+    @apply w-12 h-px bg-gold/70;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-primary text-surface-soft px-6 py-3 rounded-full font-body font-medium
+           shadow-[0_1px_0_rgba(255,255,255,0.08)_inset,0_10px_24px_-12px_rgba(21,42,34,0.55)]
+           hover:bg-primary-dark hover:-translate-y-0.5 transition-all duration-200;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border border-primary/30 text-primary px-6 py-3 rounded-full font-body font-medium
+           hover:bg-primary hover:text-surface-soft hover:border-primary hover:-translate-y-0.5 transition-all duration-200;
+  }
+  .card {
+    @apply bg-surface rounded-2xl border border-primary/10
+           shadow-[0_1px_2px_rgba(21,42,34,0.05)]
+           hover:shadow-[0_20px_40px_-24px_rgba(21,42,34,0.35)]
+           transition-shadow duration-300;
+  } */
+
+  /* Icon tiles — the small 48px badge variant (nav dropdowns, dense lists). */
+  /* .icon-tile {
+    @apply w-12 h-12 rounded-xl flex items-center justify-center shrink-0
+           ring-1 ring-inset ring-black/[0.04];
+  } */
+
+  /* Card art — the full-bleed illustrated header used on ConditionCard /
+     TherapyCard. Six muted tones cycle deterministically by slug (see
+     IconTile.tsx) so the cards read as a coherent set, each with its own
+     wash and mark, standing in for a photo without stock-photo cliché. */
+  /* .art-panel {
+    @apply flex items-end;
+  }
+
+  .tone-sage   { color: #2F4B3C; }
+  .tone-brass  { color: #8C6A31; }
+  .tone-clay   { color: #8A5A3E; }
+  .tone-slate  { color: #3E5866; }
+  .tone-plum   { color: #6B4A63; }
+  .tone-moss   { color: #4B5A34; }
+
+  .icon-tile.tone-sage  { background-color: #DCE5DA; }
+  .icon-tile.tone-brass { background-color: #EFE3CC; }
+  .icon-tile.tone-clay  { background-color: #E8DAD1; }
+  .icon-tile.tone-slate { background-color: #DCE2E6; }
+  .icon-tile.tone-plum  { background-color: #E6DCE3; }
+  .icon-tile.tone-moss  { background-color: #DEE3D2; }
+
+  .art-panel.tone-sage  { background: linear-gradient(160deg, #F4F6F1 0%, #D7E2D3 100%); }
+  .art-panel.tone-brass { background: linear-gradient(160deg, #FBF6EA 0%, #F0E2C4 100%); }
+  .art-panel.tone-clay  { background: linear-gradient(160deg, #F8F1EC 0%, #EAD9CD 100%); }
+  .art-panel.tone-slate { background: linear-gradient(160deg, #F2F5F6 0%, #D8E1E4 100%); }
+  .art-panel.tone-plum  { background: linear-gradient(160deg, #F6F1F4 0%, #E6D9E1 100%); }
+  .art-panel.tone-moss  { background: linear-gradient(160deg, #F5F6F0 0%, #DCE3D0 100%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-breathe, .animate-breatheRing, .animate-drift {
+    animation: none !important;
+  }
+} */
+
+
+
+
+/* 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-bg text-ink font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display text-primary-dark;
+  }
+  a {
+    @apply transition-colors duration-200;
+  }
+  :focus-visible {
+    outline: 2px solid #3E6E80;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-mono uppercase tracking-[0.18em] text-xs text-accent;
+  }
+  .divider {
+    @apply w-12 h-px bg-gold/70;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-primary text-surface-soft px-6 py-3 rounded-full font-body font-medium
+           shadow-[0_1px_0_rgba(255,255,255,0.08)_inset,0_10px_24px_-12px_rgba(28,46,54,0.55)]
+           hover:bg-primary-dark hover:-translate-y-0.5 transition-all duration-200;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border border-primary/30 text-primary px-6 py-3 rounded-full font-body font-medium
+           hover:bg-primary hover:text-surface-soft hover:border-primary hover:-translate-y-0.5 transition-all duration-200;
+  }
+  .card {
+    @apply bg-surface rounded-2xl border border-primary/10
+           shadow-[0_1px_2px_rgba(28,46,54,0.05)]
+           hover:shadow-[0_20px_40px_-24px_rgba(28,46,54,0.35)]
+           transition-shadow duration-300;
+  } */
+
+  /* Icon tiles — the small 48px badge variant (nav dropdowns, dense lists). */
+  /* .icon-tile {
+    @apply w-12 h-12 rounded-xl flex items-center justify-center shrink-0
+           ring-1 ring-inset ring-black/[0.04];
+  } */
+
+  /* Card art — the full-bleed illustrated header used on ConditionCard /
+     TherapyCard. Six muted tones cycle deterministically by slug (see
+     IconTile.tsx) so the cards read as a coherent set, each with its own
+     wash and mark, standing in for a photo without stock-photo cliché. */
+  /* .art-panel {
+    @apply flex items-end;
+  }
+
+  .tone-teal   { color: #2C4E52; }
+  .tone-blue   { color: #2D4759; }
+  .tone-slate  { color: #3B4649; }
+  .tone-steel  { color: #33505C; }
+  .tone-mist   { color: #435453; }
+  .tone-frost  { color: #3E5A66; }
+
+  .icon-tile.tone-teal   { background-color: #DDE7E7; }
+  .icon-tile.tone-blue   { background-color: #DBE3E9; }
+  .icon-tile.tone-slate  { background-color: #E2E5E6; }
+  .icon-tile.tone-steel  { background-color: #D7E1E5; }
+  .icon-tile.tone-mist   { background-color: #E1E7E6; }
+  .icon-tile.tone-frost  { background-color: #DBE3E7; }
+
+  .art-panel.tone-teal   { background: linear-gradient(160deg, #F1F5F5 0%, #DCE7E7 100%); }
+  .art-panel.tone-blue   { background: linear-gradient(160deg, #F1F4F6 0%, #DAE3E9 100%); }
+  .art-panel.tone-slate  { background: linear-gradient(160deg, #F3F4F4 0%, #DFE2E3 100%); }
+  .art-panel.tone-steel  { background: linear-gradient(160deg, #EFF3F4 0%, #D8E1E5 100%); }
+  .art-panel.tone-mist   { background: linear-gradient(160deg, #F4F6F5 0%, #DFE5E4 100%); }
+  .art-panel.tone-frost  { background: linear-gradient(160deg, #F2F5F6 0%, #DAE3E7 100%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-breathe, .animate-breatheRing, .animate-drift {
+    animation: none !important;
+  }
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-bg text-ink font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display text-primary-dark;
+  }
+  a {
+    @apply transition-colors duration-200;
+  }
+  :focus-visible {
+    outline: 2px solid #E0794F;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-mono uppercase tracking-[0.18em] text-xs text-accent;
+  }
+  .divider {
+    @apply w-12 h-px bg-gold/70;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-primary text-surface-soft px-6 py-3 rounded-full font-body font-medium
+           shadow-[0_1px_0_rgba(255,255,255,0.08)_inset,0_10px_24px_-12px_rgba(18,58,54,0.55)]
+           hover:bg-primary-dark hover:-translate-y-0.5 transition-all duration-200;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border border-primary/30 text-primary px-6 py-3 rounded-full font-body font-medium
+           hover:bg-primary hover:text-surface-soft hover:border-primary hover:-translate-y-0.5 transition-all duration-200;
+  }
+  .card {
+    @apply bg-surface rounded-2xl border border-primary/10
+           shadow-[0_1px_2px_rgba(18,58,54,0.05)]
+           hover:shadow-[0_20px_40px_-24px_rgba(18,58,54,0.35)]
+           transition-shadow duration-300;
+  }
+
+  /* Icon tiles — the small 48px badge variant (nav dropdowns, dense lists). */
+  .icon-tile {
+    @apply w-12 h-12 rounded-xl flex items-center justify-center shrink-0
+           ring-1 ring-inset ring-black/[0.04];
+  }
+
+  /* Card art — the full-bleed illustrated header used on ConditionCard /
+     TherapyCard. Six muted tones cycle deterministically by slug (see
+     IconTile.tsx) so the cards read as a coherent set, each with its own
+     wash and mark, standing in for a photo without stock-photo cliché. */
+  .art-panel {
+    @apply flex items-end;
+  }
+
+  .tone-teal   { color: #1F5C56; }
+  .tone-coral  { color: #C15A2E; }
+  .tone-gold   { color: #9C7418; }
+  .tone-sky    { color: #29586B; }
+  .tone-moss   { color: #4C6B2E; }
+  .tone-rose   { color: #8A4356; }
+
+  .icon-tile.tone-teal   { background-color: #CFE3DD; }
+  .icon-tile.tone-coral  { background-color: #F5D9C9; }
+  .icon-tile.tone-gold   { background-color: #F5E3B8; }
+  .icon-tile.tone-sky    { background-color: #CFE0E6; }
+  .icon-tile.tone-moss   { background-color: #D7E3C9; }
+  .icon-tile.tone-rose   { background-color: #EAD3D9; }
+
+  .art-panel.tone-teal   { background: linear-gradient(160deg, #EAF4F1 0%, #C7DFD7 100%); }
+  .art-panel.tone-coral  { background: linear-gradient(160deg, #FBEEE5 0%, #F0CFB9 100%); }
+  .art-panel.tone-gold   { background: linear-gradient(160deg, #FBF3DC 0%, #EFDBA0 100%); }
+  .art-panel.tone-sky    { background: linear-gradient(160deg, #E9F2F4 0%, #C3DAE1 100%); }
+  .art-panel.tone-moss   { background: linear-gradient(160deg, #EFF4E7 0%, #CBDDB8 100%); }
+  .art-panel.tone-rose   { background: linear-gradient(160deg, #F7EBEE 0%, #E2C4CC 100%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-breathe, .animate-breatheRing, .animate-drift {
+    animation: none !important;
+  }
+}
