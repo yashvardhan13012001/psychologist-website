@@ -321,8 +321,15 @@
 }
 
 @layer components {
-  .eyebrow {
+  /* .eyebrow {
     @apply font-mono uppercase tracking-[0.18em] text-xs text-accent;
+  } */
+  /* .eyebrow {
+    @apply font-mono uppercase tracking-[0.14em] text-sm font-bold text-accent;
+  } */
+  .eyebrow {
+    @apply font-mono uppercase tracking-[0.14em] text-sm font-bold text-accent;
+    
   }
   .divider {
     @apply w-12 h-px bg-gold/70;
@@ -377,6 +384,17 @@
   .art-panel.tone-sky    { background: linear-gradient(160deg, #E9F2F4 0%, #C3DAE1 100%); }
   .art-panel.tone-moss   { background: linear-gradient(160deg, #EFF4E7 0%, #CBDDB8 100%); }
   .art-panel.tone-rose   { background: linear-gradient(160deg, #F7EBEE 0%, #E2C4CC 100%); }
+
+  .hero-panel {
+    @apply flex flex-col justify-center rounded-b-[2.5rem];
+  }
+  
+  .hero-panel.tone-teal  { background: linear-gradient(160deg, #EAF4F1 0%, #C7DFD7 100%); }
+  .hero-panel.tone-coral { background: linear-gradient(160deg, #FBEEE5 0%, #F0CFB9 100%); }
+  .hero-panel.tone-gold  { background: linear-gradient(160deg, #FBF3DC 0%, #EFDBA0 100%); }
+  .hero-panel.tone-sky   { background: linear-gradient(160deg, #E9F2F4 0%, #C3DAE1 100%); }
+  .hero-panel.tone-moss  { background: linear-gradient(160deg, #EFF4E7 0%, #CBDDB8 100%); }
+  .hero-panel.tone-rose  { background: linear-gradient(160deg, #F7EBEE 0%, #E2C4CC 100%); }
 }
 
 @media (prefers-reduced-motion: reduce) {

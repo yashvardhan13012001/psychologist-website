@@ -8,9 +8,9 @@ const aboutLinks = [
   { label: "The Founder", href: "/about/the-founder", blurb: "Meet Lt. Col. Rajesh Sharma (Retd.) and his clinical background." },
   { label: "Chaitanya Raj", href: "/about/chaitanya-raj", blurb: "The practice's mission and approach." },
   { label: "Myths and Facts about Hypnotherapy", href: "/about/myths-and-facts-about-hypnotherapy", blurb: "Common misconceptions, addressed directly." },
-  { label: "Media Highlights", href: "/about/media-highlights", blurb: "Press features and interviews." },
-  { label: "Our Team", href: "/about/our-team", blurb: "The people behind the practice." },
-  { label: "Vastu Consultation", href: "/about/vastu-consultation", blurb: "A complementary service for your space." }
+  // { label: "Media Highlights", href: "/about/media-highlights", blurb: "Press features and interviews." },
+  // { label: "Our Team", href: "/about/our-team", blurb: "The people behind the practice." },
+  // { label: "Vastu Consultation", href: "/about/vastu-consultation", blurb: "A complementary service for your space." }
 ];
 
 export const metadata = buildMetadata({

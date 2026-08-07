@@ -3,6 +3,7 @@ import { Fraunces, Public_Sans, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FloatingSocials from "@/components/Floatingocials";
 import { LocalBusinessJsonLd } from "@/lib/seo/jsonld";
 import { site } from "@/lib/data/site";
 
@@ -50,6 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main>{children}</main>
         <Footer />
+        <FloatingSocials />
       </body>
     </html>
   );
