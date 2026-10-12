@@ -44,8 +44,8 @@ import { BreadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { mediaHighlights } from "@/lib/data/about";
 
 export const metadata = buildMetadata({
-  title: "Media Highlights",
-  description: "Press features, interviews and media appearances from Chaitanya Raj Psychology & Counselling.",
+  title: "Media Highlights | Chaitanya Raj Psychology, Navi Mumbai",
+  description: "Press features, interviews and media appearances by Lt Col Rajesh Sharma (Retd) of Chaitanya Raj Psychology & Counselling, Navi Mumbai. Explore the coverage.",
   path: "/about/media-highlights"
 });
 

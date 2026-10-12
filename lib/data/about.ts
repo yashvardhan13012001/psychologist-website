@@ -93,7 +93,7 @@ export const founder = {
       "Meet Our Founder and Lead Psychologist [Gold Medalist] | Lt Col Rajesh Sharma (Retd) | NCAHP Registered | Chaitanya Raj",
 
     metaDescription:
-      "Meet Lt Col Rajesh Sharma (Retd), Post Graduate in Clinical Psychology and Clinical Hypnotherapy[Gold Medalist], registered with the National Commission for Allied and Healthcare Professions (NCAHP). 25+ years supporting individuals and organisations across Navi Mumbai.",
+      "Meet Lt Col Rajesh Sharma (Retd), Post Graduate in Clinical Psychology and Clinical Hypnotherapy [Gold Medalist], registered with the National Commission for Allied and Healthcare Professions (NCAHP). 25+ years supporting individuals and organisations across Navi Mumbai.",
 
     slug: "founder"
   },

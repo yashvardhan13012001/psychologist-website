@@ -422,10 +422,10 @@ import { buildMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildMetadata({
   title:
-    "Corporate Wellness Programs & EAP Services in Navi Mumbai | Chaitanya Raj",
+    "Corporate Wellness Programs & EAP in Navi Mumbai",
 
   description:
-    "Corporate wellness programs, EAP services, stress management & leadership wellness for organisations in Vashi, Belapur, Nerul, Kharghar & across Navi Mumbai. 25+ years experience. Partner with us today.",
+    "EAP services, mental health workshops, burnout prevention and leadership wellness for organisations across Navi Mumbai and Mumbai. Discuss a partnership.",
 
   path: "/corporate-wellness-programs-navi-mumbai"
 });

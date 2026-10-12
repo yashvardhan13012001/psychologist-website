@@ -397,9 +397,9 @@ import { founder } from "@/lib/data/about";
 
 export const metadata = buildMetadata({
   title:
-    "Meet Our Founder and Lead Psychologist | Lt. Col. Rajesh Sharma (Retd.)",
+    "Lt Col Rajesh Sharma (Retd) | Psychologist, Navi Mumbai",
   description:
-    "Meet Lt. Col. Rajesh Sharma (Retd.), Post Graduate in Clinical Psychology and Clinical Hypnotherapy, registered with NCAHP, with over 25 years of experience supporting individuals and organisations across Navi Mumbai.",
+    "Meet Lt Col Rajesh Sharma (Retd), NCAHP-registered clinical psychologist and hypnotherapist in Navi Mumbai, with 25+ years of practice. Read his story.",
   path: "/about/the-founder"
 });
 

@@ -14,9 +14,9 @@ import {
 } from "@/lib/firebase/gallery";
 
 export const metadata = buildMetadata({
-  title: "Gallery",
+  title: "Gallery: Workshops, Training & Sessions in Navi Mumbai",
   description:
-    "Photos from past camps, outings and community events at Chaitanya Raj Psychology & Counselling.",
+    "Photos from corporate wellness workshops, hypnotherapy training cohorts and group sessions run by Chaitanya Raj across Navi Mumbai. Take a look inside.",
   path: "/gallery",
 });
 

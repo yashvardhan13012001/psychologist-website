@@ -4,8 +4,8 @@ import { trainingPrograms } from "@/lib/data/training";
 import { buildMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildMetadata({
-  title: "Training and Mentorship",
-  description: "Hypnosis and hypnotherapy training programs in Vashi, Navi Mumbai — from foundation to advanced specialised technique.",
+  title: "Hypnotherapy & PLR Training Courses in Navi Mumbai",
+  description: "Structured training and mentorship in clinical hypnosis and past life regression, from basic to advanced levels, in Navi Mumbai. View the course levels.",
   path: "/training-and-mentorship"
 });
 

@@ -50,9 +50,9 @@ export const conditions: Condition[] = [
     name: "Anxiety",
     audience: "individual",
     shortDescription: "Persistent worry, racing thoughts, or a body that won't settle.",
-    metaTitle: "Anxiety & Panic Therapy in Navi Mumbai | Chaitanya Raj",
+    metaTitle: "Anxiety & Panic Attack Therapy in Vashi, Navi Mumbai",
     metaDescription:
-      "Evidence-based anxiety, panic, and social anxiety therapy in Vashi, Navi Mumbai. CBT and hypnotherapy with 25+ years' experience. Book a consultation.",
+      "CBT and hypnotherapy for anxiety, panic attacks and social anxiety in Vashi, Navi Mumbai. 25+ years of clinical experience. Book a consultation today.",
     image: "/images/conditions/anxiety-therapy-navi-mumbai.png",
     imageAlt: "Placeholder — replace with a descriptive alt text for anxiety therapy navi mumbai",
     intro:
@@ -119,9 +119,9 @@ export const conditions: Condition[] = [
     name: "OCD (Obsessive-compulsive disorder)",
     audience: "individual",
     shortDescription: "Intrusive thoughts and the compulsions that follow, however small or hidden they've become.",
-    metaTitle: "OCD Therapy in Navi Mumbai | Obsessive-Compulsive Disorder Counselling | Chaitanya Raj",
+    metaTitle: "OCD Treatment in Vashi, Navi Mumbai | Therapy for OCD",
     metaDescription:
-      "Evidence-based OCD therapy in Vashi & Belapur, Navi Mumbai. CBT with ERP and clinical hypnotherapy, led by Lt. Col. Rajesh Sharma (Retd), 25+ years experience. Book a consultation.",
+      "Therapy for obsessive-compulsive disorder, intrusive thoughts and compulsions in Vashi, Navi Mumbai, using CBT and hypnotherapy. Book a consultation.",
     image: "/images/conditions/ocd-therapy-navi-mumbai.png",
     imageAlt: "Placeholder — replace with a descriptive alt text for ocd therapy navi mumbai",
     intro:
@@ -188,9 +188,9 @@ export const conditions: Condition[] = [
     name: "Depression",
     audience: "individual",
     shortDescription: "Low mood, low energy, and a loss of interest in things that used to matter.",
-    metaTitle: "Depression Therapy in Navi Mumbai | Mood Disorder & Emotional Wellbeing Counselling | Chaitanya Raj",
+    metaTitle: "Depression Counselling & Therapy in Vashi, Navi Mumbai",
     metaDescription:
-      "Feeling low, unmotivated, or disconnected? Get evidence-based depression counselling in Navi Mumbai with Lt. Col. Rajesh Sharma (Retd), 25+ years experience. Book a consultation today.",
+      "Support for low mood, fatigue and loss of interest through CBT and counselling in Vashi, Navi Mumbai. 25+ years of experience. Book a consultation.",
     image: "/images/conditions/depression-therapy-navi-mumbai.png",
     imageAlt: "Placeholder — replace with a descriptive alt text for depression therapy navi mumbai",
     intro:
@@ -257,9 +257,9 @@ export const conditions: Condition[] = [
     name: "Relationships",
     audience: "individual",
     shortDescription: "Conflict, distance, or communication that's grown careful and guarded.",
-    metaTitle: "Relationship Counselling in Navi Mumbai | Couples, Marriage & Family Therapy | Chaitanya Raj",
+    metaTitle: "Relationship & Couples Counselling in Vashi, Navi Mumbai",
     metaDescription:
-      "Struggling with communication, conflict, or distance in a relationship? Get relationship, couples, marriage & family counselling in Navi Mumbai with Lt. Col. Rajesh Sharma (Retd), 25+ years experience. Book a consultation today.",
+      "Counselling for couples facing conflict, distance or communication breakdown, in Vashi and Belapur, Navi Mumbai. In-person or online. Book a session.",
     image: "/images/conditions/relationship-counselling-navi-mumbai.png",
     imageAlt: "Placeholder — replace with a descriptive alt text for relationship counselling navi mumbai",
     intro:
@@ -326,9 +326,9 @@ export const conditions: Condition[] = [
     name: "Child & Teen",
     audience: "individual",
     shortDescription: "Behavioural, emotional, or mood changes in a child or teenager that need closer attention.",
-    metaTitle: "Child & Teen Counselling in Navi Mumbai | Child Psychologist & Parenting Support | Chaitanya Raj",
+    metaTitle: "Child & Teenage Counselling Services in Navi Mumbai",
     metaDescription:
-      "Worried about your child or teen's behaviour, mood, or emotions? Get child counselling, teen counselling & parenting support in Navi Mumbai with Lt. Col. Rajesh Sharma (Retd), 25+ years experience. Book a consultation today.",
+      "Counselling for children and teenagers facing behavioural, emotional or mood changes, in Vashi, Navi Mumbai. Parent guidance included. Book a session.",
     image: "/images/conditions/child-teen-counselling-navi-mumbai.png",
     imageAlt: "Placeholder — replace with a descriptive alt text for child teen counselling navi mumbai",
     intro:
@@ -404,10 +404,10 @@ export const conditions: Condition[] = [
       "A guided journey into deeper layers of memory, emotion, and subconscious experience for self-discovery, emotional healing, and personal growth.",
 
     metaTitle:
-      "Past Life Regression Therapy in Mumbai, Navi Mumbai & Thane | Chaitanya Raj",
+      "Past Life Regression Therapy in Navi Mumbai & Mumbai",
 
     metaDescription:
-      "Experience guided Past Life Regression therapy, in person or online, for emotional healing, self-discovery, and root cause healing. Sessions with Lt. Col. Rajesh Sharma (Retd), 25+ years experience. Book today.",
+      "Guided past life regression therapy in Vashi and Belapur, Navi Mumbai, or online, for unexplained fears and repeating patterns. Book a session today.",
 
     image: "/images/conditions/past-life-regression-therapy.png",
     imageAlt: "Placeholder — replace with a descriptive alt text for past life regression therapy",
@@ -547,9 +547,9 @@ export const conditions: Condition[] = [
     name: "Stress & Burnout",
     audience: "corporate",
     shortDescription: "The slow build-up of pressure from work, family, or simply doing too much for too long.",
-    metaTitle: "Stress & Burnout Counselling in Navi Mumbai | Workplace Stress & Burnout Recovery | Chaitanya Raj",
+    metaTitle: "Stress and Burnout Counselling in Vashi, Navi Mumbai",
     metaDescription:
-      "Feeling constantly depleted or on edge? Get evidence-based stress and burnout counselling in Navi Mumbai with Lt. Col. Rajesh Sharma (Retd), 25+ years experience. Book a consultation today.",
+      "Counselling for work and life pressure that has built into burnout, for individuals and teams in Vashi, Navi Mumbai. Book a consultation today.",
     image: "/images/conditions/stress-burnout-counselling-navi-mumbai.png",
     imageAlt: "Placeholder — replace with a descriptive alt text for stress burnout counselling navi mumbai",
     intro:
@@ -616,9 +616,9 @@ export const conditions: Condition[] = [
     name: "Phobias & Fears",
     audience: "individual",
     shortDescription: "A specific, disproportionate fear that limits what you feel able to do.",
-    metaTitle: "Phobia Treatment in Navi Mumbai | Fear of Flying, Heights & Specific Phobias | Chaitanya Raj",
+    metaTitle: "Phobia Treatment & Fear Therapy in Vashi, Navi Mumbai",
     metaDescription:
-      "Structured, gradual treatment for specific phobias and fears in Navi Mumbai — flying, heights, medical procedures, and more. Book a consultation today.",
+      "Hypnotherapy and CBT for specific phobias and disproportionate fears in Vashi, Navi Mumbai. Structured, paced treatment. Book a consultation.",
     image: "/images/conditions/phobia-treatment-navi-mumbai.png",
     imageAlt: "Placeholder — replace with a descriptive alt text for phobia treatment navi mumbai",
     intro:
@@ -685,9 +685,9 @@ export const conditions: Condition[] = [
     name: "Grief & Loss",
     audience: "individual",
     shortDescription: "Making space to process loss — of a person, a relationship, or a chapter of life.",
-    metaTitle: "Grief Counselling in Navi Mumbai | Loss of a Loved One & Life Transitions | Chaitanya Raj",
+    metaTitle: "Grief & Bereavement Counselling in Vashi, Navi Mumbai",
     metaDescription:
-      "Supportive grief counselling in Navi Mumbai for loss of a loved one or a significant life change. No fixed timeline, no judgement. Book a consultation today.",
+      "A quiet space to process the loss of a person, relationship or chapter of life, with grief counselling in Vashi, Navi Mumbai. Book a consultation.",
     image: "/images/conditions/grief-counselling-navi-mumbai.png",
     imageAlt: "Placeholder — replace with a descriptive alt text for grief counselling navi mumbai",
     intro:
@@ -754,9 +754,9 @@ export const conditions: Condition[] = [
     name: "Trauma & PTSD",
     audience: "individual",
     shortDescription: "The lasting effects of a distressing event that the mind hasn't fully processed.",
-    metaTitle: "Trauma & PTSD Counselling in Navi Mumbai | Trauma-Informed Therapy | Chaitanya Raj",
+    metaTitle: "PTSD & Trauma Therapy in Vashi and Belapur, Navi Mumbai",
     metaDescription:
-      "Trauma-informed counselling in Navi Mumbai for PTSD and the lasting effects of distressing events. A careful, paced approach. Book a consultation today.",
+      "Therapy for post-traumatic stress and unprocessed distressing events, in Vashi, Navi Mumbai, led by a clinician with 25+ years' experience. Book now.",
     image: "/images/conditions/trauma-ptsd-counselling-navi-mumbai.png",
     imageAlt: "Placeholder — replace with a descriptive alt text for trauma ptsd counselling navi mumbai",
     intro:
@@ -823,9 +823,9 @@ export const conditions: Condition[] = [
     name: "Sleep Disorders",
     audience: "individual",
     shortDescription: "Trouble falling asleep, staying asleep, or waking up rested.",
-    metaTitle: "Sleep Disorder & Insomnia Counselling in Navi Mumbai | Chaitanya Raj",
+    metaTitle: "Insomnia & Sleep Disorder Counselling in Navi Mumbai",
     metaDescription:
-      "Struggling to fall or stay asleep? Get evidence-based insomnia and sleep disorder counselling in Navi Mumbai with Lt. Col. Rajesh Sharma (Retd), 25+ years experience. Book today.",
+      "Help for trouble falling asleep, staying asleep or waking unrested, using CBT and hypnotherapy in Vashi, Navi Mumbai. Book a consultation today.",
     image: "/images/conditions/sleep-disorder-counselling-navi-mumbai.png",
     imageAlt: "Placeholder — replace with a descriptive alt text for sleep disorder counselling navi mumbai",
     intro:
@@ -892,9 +892,9 @@ export const conditions: Condition[] = [
     name: "Drug & Alcohol Dependence",
     audience: "individual",
     shortDescription: "Support for dependence, and the patterns that keep it going.",
-    metaTitle: "Drug & Alcohol Addiction Counselling in Navi Mumbai | Chaitanya Raj",
+    metaTitle: "Drug & Alcohol Dependence Counselling, Navi Mumbai",
     metaDescription:
-      "Confidential counselling for drug and alcohol dependence in Navi Mumbai, addressing the underlying triggers alongside the behaviour itself. Book a consultation today.",
+      "Confidential counselling for drug and alcohol dependence and the patterns that sustain it, in Vashi, Navi Mumbai. Book a private consultation.",
     image: "/images/conditions/addiction-counselling-navi-mumbai.png",
     imageAlt: "Placeholder — replace with a descriptive alt text for addiction counselling navi mumbai",
     intro:
@@ -961,9 +961,9 @@ export const conditions: Condition[] = [
     name: "Sexual Dysfunctions",
     audience: "individual",
     shortDescription: "Difficulties with desire, performance, or intimacy that carry a psychological component.",
-    metaTitle: "Sexual Dysfunction Counselling in Navi Mumbai | Confidential & Discreet | Chaitanya Raj",
+    metaTitle: "Sexual Dysfunction Counselling in Vashi, Navi Mumbai",
     metaDescription:
-      "Confidential counselling for sexual dysfunctions in Navi Mumbai, addressing the psychological factors behind difficulties with intimacy. Book a consultation today.",
+      "Discreet psychological counselling for difficulties with desire, performance or intimacy, in Vashi, Navi Mumbai. Fully confidential. Book a session.",
     image: "/images/conditions/sexual-dysfunction-counselling-navi-mumbai.png",
     imageAlt: "Placeholder — replace with a descriptive alt text for sexual dysfunction counselling navi mumbai",
     intro:
@@ -1030,9 +1030,9 @@ export const conditions: Condition[] = [
     name: "Stammering",
     audience: "individual",
     shortDescription: "Speech disfluency, often worsened by the anxiety around it.",
-    metaTitle: "Stammering & Speech Anxiety Counselling in Navi Mumbai | Chaitanya Raj",
+    metaTitle: "Stammering & Stuttering Therapy in Vashi, Navi Mumbai",
     metaDescription:
-      "Psychological support for stammering in Navi Mumbai — addressing the anxiety that often intensifies speech disfluency. Works alongside speech therapy. Book today.",
+      "Therapy for speech disfluency and the anxiety that worsens it, at our Vashi, Navi Mumbai practice. Practical, paced sessions. Book a consultation.",
     image: "/images/conditions/stammering-therapy-navi-mumbai.png",
     imageAlt: "Placeholder — replace with a descriptive alt text for stammering therapy navi mumbai",
     intro:
@@ -1099,9 +1099,9 @@ export const conditions: Condition[] = [
     name: "Sexual, Domestic & Childhood Abuse",
     audience: "individual",
     shortDescription: "A confidential space to process the impact of past or ongoing abuse.",
-    metaTitle: "Abuse Counselling in Navi Mumbai | Confidential, Trauma-Informed Support | Chaitanya Raj",
+    metaTitle: "Abuse & Childhood Trauma Counselling, Navi Mumbai",
     metaDescription:
-      "Confidential, trauma-informed counselling for survivors of sexual, domestic or childhood abuse in Navi Mumbai. A pace set by you. Book a consultation today.",
+      "A confidential space to process sexual, domestic or childhood abuse, with trauma-informed counselling in Vashi, Navi Mumbai. Reach out in confidence.",
     image: "/images/conditions/abuse-trauma-counselling-navi-mumbai.png",
     imageAlt: "Placeholder — replace with a descriptive alt text for abuse trauma counselling navi mumbai",
     intro:
@@ -1168,9 +1168,9 @@ export const conditions: Condition[] = [
     name: "Abandonment",
     audience: "individual",
     shortDescription: "Fear of being left, often rooted in earlier relationships.",
-    metaTitle: "Abandonment Issues Counselling in Navi Mumbai | Attachment & Trust Patterns | Chaitanya Raj",
+    metaTitle: "Abandonment Issues Counselling in Vashi, Navi Mumbai",
     metaDescription:
-      "Counselling for abandonment fears and attachment patterns in Navi Mumbai, working through their roots in earlier relationships. Book a consultation today.",
+      "Therapy for fear of being left and attachment patterns rooted in earlier relationships, in Vashi, Navi Mumbai. Book a confidential consultation.",
     image: "/images/conditions/abandonment-counselling-navi-mumbai.png",
     imageAlt: "Placeholder — replace with a descriptive alt text for abandonment counselling navi mumbai",
     intro:
@@ -1237,9 +1237,9 @@ export const conditions: Condition[] = [
     name: "Anger Management",
     audience: "corporate",
     shortDescription: "Reactions that feel disproportionate, or hard to control once triggered.",
-    metaTitle: "Anger Management Counselling in Navi Mumbai | Chaitanya Raj",
+    metaTitle: "Anger Management Counselling & Therapy, Navi Mumbai",
     metaDescription:
-      "Anger management counselling in Navi Mumbai. Understand your triggers and build practical, lasting self-regulation skills. Book a consultation today.",
+      "Counselling for reactions that feel disproportionate or hard to control once triggered, in Vashi, Navi Mumbai. Practical tools. Book a consultation.",
     image: "/images/conditions/anger-management-counselling-navi-mumbai.png",
     imageAlt: "Placeholder — replace with a descriptive alt text for anger management counselling navi mumbai",
     intro:
@@ -1306,9 +1306,9 @@ export const conditions: Condition[] = [
     name: "Leadership & Team Building Programs",
     audience: "corporate",
     shortDescription: "Psychologist-led leadership development and team building programs for organisations, delivered globally.",
-    metaTitle: "Leadership & Team Building Programs | Corporate Psychologist-Led Training | Chaitanya Raj",
+    metaTitle: "Leadership & Team Building Programs for Organisations",
     metaDescription:
-      "Global leadership development and team building programs led by a psychologist, Lt Col Rajesh Sharma (Retd), with 25+ years of experience. In-person and virtual delivery worldwide. Book a consultation today.",
+      "Psychologist-led leadership development and team building programs for organisations, delivered on-site, at our Navi Mumbai centre or online. Enquire now.",
     image: "/images/corporate/leadership-wellness.jpg",
     imageAlt: "Placeholder replace with a descriptive alt text for leadership and team building programs",
     intro:

@@ -4,8 +4,8 @@ import { caseStudies } from "@/lib/data/caseStudies";
 import { buildMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildMetadata({
-  title: "Case Studies",
-  description: "Anonymised case studies from Chaitanya Raj Psychology & Counselling, illustrating our approach across common concerns.",
+  title: "Therapy Case Studies | Real Outcomes, Navi Mumbai",
+  description: "Anonymised case studies from our Navi Mumbai practice showing how anxiety, anger, insomnia and other concerns were worked through. Read the outcomes.",
   path: "/case-studies"
 });
 

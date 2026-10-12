@@ -1238,8 +1238,10 @@ export default function Hero() {
             Healing Begins with a Conversation
           </h1>
           <p className="text-ink-soft text-lg leading-relaxed mb-8 max-w-md">
-            Evidence-based counselling, clinical hypnotherapy and psychological support
-            led by Lt Col Rajesh Sharma (Retd), with over 25 years of clinical experience.
+          Hero paragraph Led by Lt Col Rajesh Sharma (Retd), a psychologist in
+          Navi Mumbai with over 25 years of clinical experience. Evidence based
+          support for anxiety, depression, stress, trauma, and more, in Vashi,
+          Belapur, and online.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link href="/contact" className="btn-primary">

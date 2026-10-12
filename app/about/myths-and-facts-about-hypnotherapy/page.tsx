@@ -4,8 +4,8 @@ import { BreadcrumbJsonLd, FAQJsonLd } from "@/lib/seo/jsonld";
 import { hypnotherapyMyths } from "@/lib/data/about";
 
 export const metadata = buildMetadata({
-  title: "Myths and Facts about Hypnotherapy",
-  description: "Common misconceptions about clinical hypnotherapy, addressed directly — from control and memory to what the evidence actually shows.",
+  title: "Hypnotherapy Myths & Facts: What It Really Involves",
+  description: "Common myths about hypnotherapy answered by a clinical hypnotherapist in Navi Mumbai, including safety, loss of control and what a session actually feels like.",
   path: "/about/myths-and-facts-about-hypnotherapy"
 });
 

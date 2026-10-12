@@ -30,7 +30,7 @@ export const site = {
   name: "Chaitanya Raj Psychology & Counselling",
   shortName: "Chaitanya Raj",
   founder: "Lt Col Rajesh Sharma (Retd)",
-  founderCredentials: "Clinical Hypnotherapist & Counselling Psychologist (MA Clinical Psychollogy Gold Medalist, PG diploma Clinical Hypnosis), 25+ years of practice",
+  founderCredentials: "Clinical Hypnotherapist & Counselling Psychologist (MA Clinical Psychology Gold Medalist, PG diploma Clinical Hypnosis), 25+ years of practice",
   tagline: "A quieter place to work through what's heavy",
   description:
     "Clinical psychology, counselling & hypnotherapy in Vashi, Navi Mumbai. Evidence-based support for anxiety, depression, stress and trauma. 25+ years' experience.",

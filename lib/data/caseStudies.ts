@@ -221,9 +221,9 @@ export const caseStudies: CaseStudy[] = [
     slug: "aversion-to-sex",
     title: "Working Through an Aversion to Intimacy",
     issue: "sexual-dysfunction-counselling-navi-mumbai",
-    metaTitle: "Case Study: Aversion to Sex | Chaitanya Raj",
+    metaTitle: "Case Study: Working Through an Aversion to Intimacy",
     metaDescription:
-      "An anonymised case study on working through an aversion to intimacy using CBT and Ego State Therapy.",
+      "How an aversion to intimacy was explored and worked through with confidential psychological therapy in Navi Mumbai. Read the anonymised case study.",
     summary:
       "An adult client presented with a persistent aversion to physical intimacy that was affecting their long-term relationship.",
     presentingConcern:
@@ -237,9 +237,9 @@ export const caseStudies: CaseStudy[] = [
     slug: "anxiety-and-depression",
     title: "Co-occurring Anxiety and Depression",
     issue: "anxiety-therapy-navi-mumbai",
-    metaTitle: "Case Study: Anxiety and Depression | Chaitanya Raj",
+    metaTitle: "Case Study: Co-occurring Anxiety and Depression Treated",
     metaDescription:
-      "An anonymised case study on treating co-occurring anxiety and depression with a combined CBT and behavioural approach.",
+      "How co-occurring anxiety and depression were worked through with CBT and hypnotherapy at our Navi Mumbai practice. Read the anonymised case study.",
     summary:
       "A working professional presented with both persistent low mood and constant background anxiety that had built up over several months.",
     presentingConcern:
@@ -253,9 +253,9 @@ export const caseStudies: CaseStudy[] = [
     slug: "anger-management",
     title: "Reactive Anger Affecting Family Relationships",
     issue: "anger-management-counselling-navi-mumbai",
-    metaTitle: "Case Study: Anger Management | Chaitanya Raj",
+    metaTitle: "Case Study: Reactive Anger and Family Relationships",
     metaDescription:
-      "An anonymised case study on addressing reactive anger affecting family relationships through Behaviour Modification Therapy.",
+      "How reactive anger that was straining family relationships was addressed through structured counselling in Navi Mumbai. Read the anonymised case study.",
     summary:
       "A client sought support after repeated conflict at home linked to reactions they described as disproportionate to the situation.",
     presentingConcern:
@@ -269,9 +269,9 @@ export const caseStudies: CaseStudy[] = [
     slug: "insomnia",
     title: "Chronic Insomnia Linked to Racing Thoughts",
     issue: "sleep-disorder-counselling-navi-mumbai",
-    metaTitle: "Case Study: Insomnia | Chaitanya Raj",
+    metaTitle: "Case Study: Chronic Insomnia and Racing Thoughts",
     metaDescription:
-      "An anonymised case study on resolving chronic insomnia using CBT-I principles and clinical hypnotherapy.",
+      "How chronic insomnia driven by racing thoughts was treated using hypnotherapy and CBT at our Navi Mumbai practice. Read the anonymised case study.",
     summary:
       "A client presented with several months of difficulty falling and staying asleep, alongside daytime fatigue affecting work performance.",
     presentingConcern:
@@ -285,9 +285,9 @@ export const caseStudies: CaseStudy[] = [
     slug: "migraine",
     title: "Stress-Linked Migraine Frequency",
     issue: "stress-burnout-counselling-navi-mumbai",
-    metaTitle: "Case Study: Migraine | Chaitanya Raj",
+    metaTitle: "Case Study: Reducing Stress-Linked Migraine Frequency",
     metaDescription:
-      "An anonymised case study on reducing stress-linked migraine frequency through mindfulness-based technique and CBT.",
+      "How stress-driven migraine frequency was reduced through psychological therapy at our Navi Mumbai practice. Read the anonymised case study.",
     summary:
       "A client experiencing frequent migraines, previously evaluated medically, identified a clear link between episodes and periods of high stress.",
     presentingConcern:

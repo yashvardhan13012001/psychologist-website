@@ -17,7 +17,7 @@ export const differentiators: Differentiator[] = [
   {
     title: "Specialised Hypnotherapy Training",
     description:
-      "Recognised by the British Psychological Society including advanced technique most general practices in the area don't offer."
+      "Rajesh Sharma is a lifetime professional member of the Academy of Hypnosis, India the country's dedicated professional body for hypnotherapy. Member reference: 202301LM000034"
   },
   {
     title: "A Full Spectrum of Support",

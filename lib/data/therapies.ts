@@ -457,9 +457,9 @@ export const therapies: Therapy[] = [
     slug: "cognitive-behavioural-therapy",
     name: "Cognitive Behavioural Therapy (CBT)",
     shortDescription: "A structured, evidence-based approach to changing unhelpful thought patterns.",
-    metaTitle: "CBT Therapist in Navi Mumbai | Chaitanya Raj",
+    metaTitle: "Cognitive Behavioural Therapy (CBT) in Navi Mumbai",
     metaDescription:
-      "Cognitive Behavioural Therapy in Vashi, Navi Mumbai. A structured, practical approach to anxiety, depression and stress.",
+      "How CBT is used at our Vashi, Navi Mumbai practice to change unhelpful thought patterns behind anxiety, depression and stress. Learn more or book.",
     intro:
       "CBT is one of the most researched forms of talk therapy, built on a simple idea: thoughts, feelings and behaviour are closely linked, and changing one changes the others. Sessions are structured and goal-oriented, usually with practical exercises to try between sessions.",
     whatToExpect: [
@@ -474,9 +474,9 @@ export const therapies: Therapy[] = [
     slug: "behaviour-modification-therapy",
     name: "Behaviour Modification Therapy",
     shortDescription: "Working directly with habits and behaviours to build new, healthier patterns.",
-    metaTitle: "Behaviour Modification Therapy in Navi Mumbai | Chaitanya Raj",
+    metaTitle: "Behaviour Modification Therapy in Vashi, Navi Mumbai",
     metaDescription:
-      "Behaviour modification therapy in Vashi, Navi Mumbai, for habit change, anger management and rebuilding routine after depression.",
+      "A structured approach to changing entrenched habits and behavioural patterns, offered at our Vashi, Navi Mumbai practice. Learn how it works.",
     intro:
       "Rather than focusing primarily on thoughts, this approach works directly with behaviour — identifying what reinforces an unwanted pattern and building structured steps toward a healthier one.",
     whatToExpect: [
@@ -487,30 +487,30 @@ export const therapies: Therapy[] = [
     ],
     goodFor: ["depression-therapy-navi-mumbai", "anger-management-counselling-navi-mumbai"]
   },
-  {
-    slug: "clinical-hypnotherapy",
-    name: "Clinical Hypnotherapy",
-    shortDescription: "A recognised therapeutic technique using focused relaxation to work with the subconscious.",
-    metaTitle: "Clinical Hypnotherapy in Navi Mumbai | Chaitanya Raj",
-    metaDescription:
-      "Clinical hypnotherapy in Vashi, Navi Mumbai, for anxiety, phobias, trauma and sleep — recognised by the British Psychological Society.",
-    intro:
-      "Clinical hypnotherapy uses a state of focused, relaxed attention to work with patterns that are harder to reach through conversation alone — particularly useful for phobias, deep-seated anxiety, and the body's automatic stress response. It's recognised by the British Psychological Society as an effective therapeutic technique when practised by a trained clinician.",
-    whatToExpect: [
-      "A clear explanation of the process before any session begins",
-      "A guided state of focused relaxation — you remain aware and in control throughout",
-      "Targeted work on the specific pattern being addressed",
-      "Integration discussion afterward to connect the session to daily life"
-    ],
-    goodFor: ["anxiety-therapy-navi-mumbai", "phobia-treatment-navi-mumbai", "trauma-ptsd-counselling-navi-mumbai", "sleep-disorder-counselling-navi-mumbai"]
-  },
+  // {
+  //   slug: "clinical-hypnotherapy",
+  //   name: "Clinical Hypnotherapy",
+  //   shortDescription: "A recognised therapeutic technique using focused relaxation to work with the subconscious.",
+  //   metaTitle: "Clinical Hypnotherapy in Navi Mumbai | Chaitanya Raj",
+  //   metaDescription:
+  //     "Clinical hypnotherapy in Vashi, Navi Mumbai, for anxiety, phobias, trauma and sleep — recognised by the British Psychological Society.",
+  //   intro:
+  //     "Clinical hypnotherapy uses a state of focused, relaxed attention to work with patterns that are harder to reach through conversation alone — particularly useful for phobias, deep-seated anxiety, and the body's automatic stress response. It's recognised by the British Psychological Society as an effective therapeutic technique when practised by a trained clinician.",
+  //   whatToExpect: [
+  //     "A clear explanation of the process before any session begins",
+  //     "A guided state of focused relaxation — you remain aware and in control throughout",
+  //     "Targeted work on the specific pattern being addressed",
+  //     "Integration discussion afterward to connect the session to daily life"
+  //   ],
+  //   goodFor: ["anxiety-therapy-navi-mumbai", "phobia-treatment-navi-mumbai", "trauma-ptsd-counselling-navi-mumbai", "sleep-disorder-counselling-navi-mumbai"]
+  // },
   {
     slug: "ego-state-therapy",
     name: "Ego State Therapy",
     shortDescription: "Working with different internal 'parts' of yourself that hold different memories and reactions.",
-    metaTitle: "Ego State Therapy in Navi Mumbai | Chaitanya Raj",
+    metaTitle: "Ego State Therapy: How It Works | Navi Mumbai Practice",
     metaDescription:
-      "Ego State Therapy in Vashi, Navi Mumbai, to work through unresolved trauma, grief and internal conflict in a structured, guided way.",
+      "Ego state therapy works with the different internal parts that drive conflicting reactions. Offered at our Vashi, Navi Mumbai practice. Learn more.",
     intro:
       "Ego State Therapy works from the idea that we hold different internal 'parts' shaped by different experiences and ages — some protective, some wounded. Therapy helps these parts communicate rather than work against each other, particularly useful for unresolved trauma and grief.",
     whatToExpect: [
@@ -525,9 +525,9 @@ export const therapies: Therapy[] = [
     slug: "past-life-regression-technique",
     name: "Past-Life Regression Therapy (PLRT)",
     shortDescription: "A guided hypnotic technique exploring past-life narratives believed to influence present-day patterns.",
-    metaTitle: "How Past-Life Regression Therapy Works | Chaitanya Raj",
+    metaTitle: "How Past Life Regression Therapy Works | The Technique",
     metaDescription:
-      "How Past-Life Regression Therapy (PLRT) works as a hypnotherapy technique. For sessions and booking, see our full PLRT service page.",
+      "A plain explanation of the past life regression technique: how a session is structured, what the induction involves and how integration follows. Learn more.",
     intro:
       "PLRT is a hypnosis-based technique in which a client, in a guided relaxed state, explores narratives experienced as memories from a past life. It sits outside mainstream evidence-based psychology and its effects are understood by practitioners as symbolic or narrative rather than literal — many clients find the process helps surface and reframe deep-seated fears or patterns that talk therapy alone hasn't shifted, regardless of how the phenomenon itself is interpreted.",
     whatToExpect: [
@@ -542,9 +542,9 @@ export const therapies: Therapy[] = [
     slug: "spirit-release-therapy",
     name: "Spirit Release Therapy (SRT)",
     shortDescription: "A hypnotherapy-based technique some clients use to work through a felt sense of external attachment or influence.",
-    metaTitle: "Spirit Release Therapy (SRT) in Navi Mumbai | Chaitanya Raj",
+    metaTitle: "Spirit Release Therapy (SRT) | What a Session Involves",
     metaDescription:
-      "Spirit Release Therapy (SRT) in Vashi, Navi Mumbai — a specialised hypnotherapy technique for clients experiencing a felt sense of external attachment or influence.",
+      "What spirit release therapy involves, how it sits alongside clinical hypnotherapy, and who it may suit. Offered at our Navi Mumbai practice. Learn more.",
     intro:
       "SRT is a specialised hypnotherapy technique used with clients who describe a persistent felt sense of an external presence or influence. As with PLRT, this approach sits outside mainstream clinical psychology; it's offered for clients who specifically seek it, following an honest conversation about what the process involves.",
     whatToExpect: [

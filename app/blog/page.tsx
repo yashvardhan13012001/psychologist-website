@@ -8,8 +8,8 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { getPublishedPosts, BlogPost } from "@/lib/firebase/blogs";
 
 export const metadata = buildMetadata({
-  title: "Blog",
-  description: "Psychological wellbeing insights and articles from Chaitanya Raj Psychology & Counselling.",
+  title: "Blog: Psychology, Therapy & Hypnotherapy Insights",
+  description: "Articles on anxiety, depression, hypnotherapy and past life regression from Lt Col Rajesh Sharma (Retd), psychologist in Navi Mumbai. Read the latest.",
   path: "/blog",
 });
 

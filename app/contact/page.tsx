@@ -129,9 +129,9 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { site } from "@/lib/data/site";
 
 export const metadata = buildMetadata({
-  title: "Contact | Book a Consultation in Navi Mumbai",
+  title: "Book a Consultation | Psychologist in Vashi, Navi Mumbai",
   description:
-    "Get in touch with Chaitanya Raj Psychology & Counselling in Vashi, Navi Mumbai. In-person and online consultations available.",
+    "Book an in-person or online session at Chaitanya Raj, Gold City, Sector 19D, Vashi, Navi Mumbai. Open Mon-Sat, 10am-7pm. Call +91 96284 93677.",
   path: "/contact",
 });
 

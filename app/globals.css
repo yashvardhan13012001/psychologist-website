@@ -297,6 +297,11 @@
   }
 } */
 
+
+
+
+
+/* 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -321,12 +326,7 @@
 }
 
 @layer components {
-  /* .eyebrow {
-    @apply font-mono uppercase tracking-[0.18em] text-xs text-accent;
-  } */
-  /* .eyebrow {
-    @apply font-mono uppercase tracking-[0.14em] text-sm font-bold text-accent;
-  } */
+  
   .eyebrow {
     @apply font-mono uppercase tracking-[0.14em] text-sm font-bold text-accent;
     
@@ -350,16 +350,13 @@
            transition-shadow duration-300;
   }
 
-  /* Icon tiles — the small 48px badge variant (nav dropdowns, dense lists). */
+
   .icon-tile {
     @apply w-12 h-12 rounded-xl flex items-center justify-center shrink-0
            ring-1 ring-inset ring-black/[0.04];
   }
 
-  /* Card art — the full-bleed illustrated header used on ConditionCard /
-     TherapyCard. Six muted tones cycle deterministically by slug (see
-     IconTile.tsx) so the cards read as a coherent set, each with its own
-     wash and mark, standing in for a photo without stock-photo cliché. */
+  
   .art-panel {
     @apply flex items-end;
   }
@@ -401,4 +398,143 @@
   .animate-breathe, .animate-breatheRing, .animate-drift {
     animation: none !important;
   }
+}
+
+
+
+
+.blog-content {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+} */
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg text-ink font-body antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-primary-dark;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+
+  :focus-visible {
+    outline: 2px solid #E0794F;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  /* Full-width homepage section backgrounds. The content Section stays transparent. */
+  .section-soft {
+    background-color: #DCEAE4;
+  }
+
+  .section-white {
+    background-color: #FFFFFF;
+  }
+
+  .section-primary {
+    background-color: #1F5C56;
+  }
+
+  .section-dark {
+    background-color: #123A36;
+  }
+
+  .eyebrow {
+    @apply font-mono uppercase tracking-[0.14em] text-sm font-bold text-accent;
+  }
+
+  .divider {
+    @apply w-12 h-px bg-gold/70;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-primary text-surface-soft px-6 py-3 rounded-full font-body font-medium
+      shadow-[0_1px_0_rgba(255,255,255,0.08)_inset,0_10px_24px_-12px_rgba(18,58,54,0.55)]
+      hover:bg-primary-dark hover:-translate-y-0.5 transition-all duration-200;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border border-primary/30 text-primary px-6 py-3 rounded-full font-body font-medium
+      hover:bg-primary hover:text-surface-soft hover:border-primary hover:-translate-y-0.5 transition-all duration-200;
+  }
+
+  .card {
+    @apply bg-surface rounded-2xl border border-primary/10
+      shadow-[0_1px_2px_rgba(18,58,54,0.05)]
+      hover:shadow-[0_20px_40px_-24px_rgba(18,58,54,0.35)]
+      transition-shadow duration-300;
+  }
+
+  .icon-tile {
+    @apply w-12 h-12 rounded-xl flex items-center justify-center shrink-0
+      ring-1 ring-inset ring-black/[0.04];
+  }
+
+  .art-panel {
+    @apply flex items-end;
+  }
+
+  .tone-teal { color: #1F5C56; }
+  .tone-coral { color: #C15A2E; }
+  .tone-gold { color: #9C7418; }
+  .tone-sky { color: #29586B; }
+  .tone-moss { color: #4C6B2E; }
+  .tone-rose { color: #8A4356; }
+
+  .icon-tile.tone-teal { background-color: #CFE3DD; }
+  .icon-tile.tone-coral { background-color: #F5D9C9; }
+  .icon-tile.tone-gold { background-color: #F5E3B8; }
+  .icon-tile.tone-sky { background-color: #CFE0E6; }
+  .icon-tile.tone-moss { background-color: #D7E3C9; }
+  .icon-tile.tone-rose { background-color: #EAD3D9; }
+
+  .art-panel.tone-teal { background: linear-gradient(160deg, #EAF4F1 0%, #C7DFD7 100%); }
+  .art-panel.tone-coral { background: linear-gradient(160deg, #FBEEE5 0%, #F0CFB9 100%); }
+  .art-panel.tone-gold { background: linear-gradient(160deg, #FBF3DC 0%, #EFDBA0 100%); }
+  .art-panel.tone-sky { background: linear-gradient(160deg, #E9F2F4 0%, #C3DAE1 100%); }
+  .art-panel.tone-moss { background: linear-gradient(160deg, #EFF4E7 0%, #CBDDB8 100%); }
+  .art-panel.tone-rose { background: linear-gradient(160deg, #F7EBEE 0%, #E2C4CC 100%); }
+
+  .hero-panel {
+    @apply flex flex-col justify-center rounded-b-[2.5rem];
+  }
+
+  .hero-panel.tone-teal { background: linear-gradient(160deg, #EAF4F1 0%, #C7DFD7 100%); }
+  .hero-panel.tone-coral { background: linear-gradient(160deg, #FBEEE5 0%, #F0CFB9 100%); }
+  .hero-panel.tone-gold { background: linear-gradient(160deg, #FBF3DC 0%, #EFDBA0 100%); }
+  .hero-panel.tone-sky { background: linear-gradient(160deg, #E9F2F4 0%, #C3DAE1 100%); }
+  .hero-panel.tone-moss { background: linear-gradient(160deg, #EFF4E7 0%, #CBDDB8 100%); }
+  .hero-panel.tone-rose { background: linear-gradient(160deg, #F7EBEE 0%, #E2C4CC 100%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-breathe,
+  .animate-breatheRing,
+  .animate-drift {
+    animation: none !important;
+  }
+}
+
+.blog-content {
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
